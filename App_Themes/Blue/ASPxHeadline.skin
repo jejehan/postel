@@ -1,0 +1,5 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dxhl" %>
+<dxhl:ASPxHeadline runat="server"   TailPosition="KeepWithLastWord" CssFilePath="~/App_Themes/Blue/{0}/styles.css" CssPostfix="Blue">
+	<HeaderStyle Spacing="1px"/>
+</dxhl:ASPxHeadline>

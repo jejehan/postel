@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<items>
+  <item Text="Home" NavigateUrl="~/Pages/Default.aspx" />
+  <item Text="Data dan Proses" NavigateUrl="#"  />
+  <item Text="Cetak" NavigateUrl="#"  />
+  <item Text="Laporan" NavigateUrl="#"  />
+</items>

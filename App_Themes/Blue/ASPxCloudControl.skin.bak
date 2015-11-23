@@ -1,0 +1,9 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxCloudControl" TagPrefix="dxcc" %>
+<dxcc:ASPxCloudControl runat="server" ImageFolder="~/App_Themes/Blue/{0}/" CssFilePath="~/App_Themes/Blue/{0}/styles.css" CssPostfix="Blue"
+ItemBeginEndTextColor="#a8d1fe" 
+MinColor="#3894f1" 
+MaxColor="#1473d2"
+ValueColor = "#99B8DD" 
+ItemBeginText="{" ItemEndText="}">
+</dxcc:ASPxCloudControl>

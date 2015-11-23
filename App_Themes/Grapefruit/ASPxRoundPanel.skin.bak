@@ -1,0 +1,32 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web.ASPxRoundPanel" Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px" CssPostfix="Grapefruit" CssFilePath="~/App_Themes/Grapefruit/{0}/styles.css">
+<Border BorderStyle="None"></Border>
+<ContentPaddings PaddingTop="6px"></ContentPaddings>
+<LeftEdge>
+<BackgroundImage Repeat="RepeatY" ImageUrl="~/App_Themes/Grapefruit/Web/rpLeftEdge.png"></BackgroundImage>
+</LeftEdge>
+<BottomRightCorner Height="6px" Width="6px" Url="~/App_Themes/Grapefruit/Web/rpBottomRightCorner.png"></BottomRightCorner>
+<BottomEdge>
+<BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Grapefruit/Web/rpBottomEdge.png"></BackgroundImage>
+</BottomEdge>
+<Content>
+<BackgroundImage ImageUrl="~/App_Themes/Grapefruit/Web/rpContentBackground.png"></BackgroundImage>
+</Content>
+<HeaderContent>
+<BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Grapefruit/Web/rpHeaderContent.png"></BackgroundImage>
+</HeaderContent>
+<HeaderRightEdge>
+<BackgroundImage Repeat="NoRepeat" ImageUrl="~/App_Themes/Grapefruit/Web/rpHeaderRightEdge.png"></BackgroundImage>
+</HeaderRightEdge>
+<RightEdge>
+<BackgroundImage Repeat="RepeatY" ImageUrl="~/App_Themes/Grapefruit/Web/rpRightEdge.png"></BackgroundImage>
+</RightEdge>
+<HeaderStyle Height="23px">
+<Border BorderStyle="None"></Border>
+</HeaderStyle>
+<HeaderLeftEdge>
+<BackgroundImage Repeat="NoRepeat" ImageUrl="~/App_Themes/Grapefruit/Web/rpHeaderLeftEdge.png"></BackgroundImage>
+</HeaderLeftEdge>
+<BottomLeftCorner Height="6px" Width="6px" Url="~/App_Themes/Grapefruit/Web/rpBottomLeftCorner.png"></BottomLeftCorner>
+</dxrp:ASPxRoundPanel>

@@ -1,0 +1,9 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxtc" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxtc:ASPxTabControl runat="server" CssPostfix="BlackGlass" CssFilePath="{0}/styles.css">
+    <ContentStyle>
+        <Border BorderWidth="1px" BorderStyle="Solid" BorderColor="#4E4F51"></Border>
+    </ContentStyle>
+</dxtc:ASPxTabControl>
+

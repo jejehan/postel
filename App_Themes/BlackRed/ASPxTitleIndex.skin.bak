@@ -1,0 +1,12 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxti" Namespace="DevExpress.Web.ASPxTitleIndex" Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxti:ASPxTitleIndex runat="server" ImageFolder="~/App_Themes/BlackRed/{0}/" CssFilePath="~/App_Themes/BlackRed/{0}/styles.css" CssPostfix="BlackRed">
+<ItemStyle>
+<CurrentItemStyle Font-Underline="False" Font-Bold="False">
+</CurrentItemStyle>
+</ItemStyle>
+<FilterBox HorizontalPosition="Left" InfoText=""></FilterBox>
+<IndexPanelStyle Font-Size="11px"></IndexPanelStyle>
+<GroupContentStyle ItemSpacing="" Font-Underline="False" Font-Bold="False"></GroupContentStyle>
+<IndexPanelSeparatorStyle Height="1px" BackColor="Black"></IndexPanelSeparatorStyle>
+</dxti:ASPxTitleIndex>

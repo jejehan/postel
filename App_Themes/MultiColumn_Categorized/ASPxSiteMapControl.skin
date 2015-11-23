@@ -1,0 +1,20 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxsm" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxsm:ASPxSiteMapControl runat="server" RepeatDirection="Horizontal" CssFilePath="~/App_Themes/MultiColumn_Categorized/{0}/styles.css" Categorized="True" 
+CssPostfix="MultiColumn">
+<LevelProperties>
+<dxsm:LevelProperties>
+<ChildNodesPaddings PaddingTop="0px" PaddingBottom="13px"></ChildNodesPaddings>
+</dxsm:LevelProperties>
+<dxsm:LevelProperties BulletStyle="None">
+<ChildNodesPaddings PaddingTop="9px" PaddingLeft="0px"></ChildNodesPaddings>
+</dxsm:LevelProperties>
+<dxsm:LevelProperties NodeSpacing="4px" ImageSpacing="4px" VerticalAlign="Top">
+<Image Height="8px" Width="3px" Url="~/App_Themes/MultiColumn_Categorized/Web/csmBullet.gif"></Image>
+</dxsm:LevelProperties>
+</LevelProperties>
+<Paddings Padding="21px" PaddingBottom="8px"></Paddings>
+<ColumnSeparatorStyle Width="10px">
+<Paddings Padding="0px"></Paddings>
+</ColumnSeparatorStyle>
+</dxsm:ASPxSiteMapControl>

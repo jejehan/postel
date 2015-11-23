@@ -1,0 +1,25 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web" TagPrefix="dxsm" %>
+<dxsm:ASPxSiteMapControl 
+    runat="server"
+    CssFilePath="~/App_Themes/Blue/{0}/styles.css" CssPostfix="Blue" 
+    ImageFolder="~/App_Themes/Blue/{0}/"     
+    >        
+<Paddings PaddingTop="18px" Padding="31px" PaddingLeft="28px"></Paddings>      
+<ColumnSeparatorStyle>
+    <Paddings PaddingRight="35px" PaddingLeft="35px"></Paddings>
+</ColumnSeparatorStyle>
+<DefaultLevelProperties NodeSpacing="6px">
+    <ChildNodesPaddings PaddingTop="10px" PaddingBottom="10px"></ChildNodesPaddings>    
+    <CurrentNodeStyle Font-Underline="False" Font-Bold="True"></CurrentNodeStyle>
+</DefaultLevelProperties>
+<LevelProperties>
+    <dxsm:LevelProperties NodeSpacing="30px" >        
+        <ChildNodesPaddings PaddingTop="12px"></ChildNodesPaddings>
+        <NodePaddings PaddingBottom="7px"></NodePaddings>
+    </dxsm:LevelProperties>
+    <dxsm:LevelProperties Image-Url="~/App_Themes/Blue/Web/smSecondLevelBullet.gif" ImageSpacing="14px">
+        <ChildNodesPaddings PaddingLeft="38px"></ChildNodesPaddings>
+    </dxsm:LevelProperties>    
+</LevelProperties>
+</dxsm:ASPxSiteMapControl>

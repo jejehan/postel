@@ -1,0 +1,12 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxTabControl" TagPrefix="dxtc" %>
+<%@ Register Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxClasses" tagprefix="dxw" %>
+<dxtc:ASPxPageControl runat="server" CssFilePath="~/App_Themes/Blue/{0}/styles.css" CssPostfix="Blue" ImageFolder="~/App_Themes/Blue/{0}/">    
+<Paddings PaddingLeft="0px" PaddingRight="0px" />
+<ContentStyle>
+    <Border BorderWidth="0px"></Border>
+</ContentStyle>
+<TabStyle>
+    <Border BorderWidth="0px"></Border>    
+</TabStyle>
+</dxtc:ASPxPageControl>

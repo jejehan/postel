@@ -1,0 +1,40 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px" CssPostfix="Black" ImageFolder="~/App_Themes/Black/{0}/" BackColor="Black" CssFilePath="~/App_Themes/Black/{0}/styles.css">
+    <Border BorderStyle="None" />
+    <ContentPaddings PaddingTop="9px" Padding="3px" PaddingBottom="5px" />
+    <HeaderStyle ForeColor="White">
+        <BorderBottom BorderWidth="1px" BorderStyle="Solid" BorderColor="#40444A" />
+    </HeaderStyle>
+    <%-- Corner parts --%>
+    <TopLeftCorner Height="8px" Width="10px" Url="~/App_Themes/Black/Web/rpTopLeftCorner.png" />
+    <NoHeaderTopLeftCorner Height="10px" Width="10px" Url="~/App_Themes/Black/Web/rpNoHeaderTopLeftCorner.png" />
+    <TopRightCorner Height="8px" Width="10px" Url="~/App_Themes/Black/Web/rpTopRightCorner.png" />
+    <NoHeaderTopRightCorner Height="10px" Width="10px" Url="~/App_Themes/Black/Web/rpNoHeaderTopRightCorner.png" />
+    <BottomLeftCorner Height="10px" Width="10px" Url="~/App_Themes/Black/Web/rpBottomLeftCorner.png" />
+    <BottomRightCorner Height="10px" Width="10px" Url="~/App_Themes/Black/Web/rpBottomRightCorner.png" />
+    <%-- Header parts --%>
+    <HeaderLeftEdge>
+        <BackgroundImage Repeat="NoRepeat" ImageUrl="~/App_Themes/Black/Web/rpHeaderLeftEdge.png" />
+    </HeaderLeftEdge>
+    <HeaderContent>
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Black/Web/rpHeaderRightEdgeContent.png" />
+    </HeaderContent>
+    <HeaderRightEdge>
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Black/Web/rpHeaderRightEdgeContent.png" />
+    </HeaderRightEdge>
+    <%-- Middle parts --%>
+    <TopEdge>
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Black/Web/rpTopEdge.png" />
+    </TopEdge>
+    <NoHeaderTopEdge BackColor="Black" />
+    <RightEdge> 
+        <BackgroundImage ImageUrl="~/App_Themes/Black/Web/rpRightEdge.png" />
+    </RightEdge>
+    <BottomEdge>
+        <BackgroundImage ImageUrl="~/App_Themes/Black/Web/rpBottomEdge.png" />
+    </BottomEdge>
+    <LeftEdge>
+        <BackgroundImage Repeat="RepeatY" ImageUrl="~/App_Themes/Black/Web/rpLeftEdge.png" />
+    </LeftEdge>
+</dxrp:ASPxRoundPanel>

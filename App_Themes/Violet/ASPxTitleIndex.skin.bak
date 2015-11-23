@@ -1,0 +1,18 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxti" Namespace="DevExpress.Web.ASPxTitleIndex" Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxti:ASPxTitleIndex runat="server" GroupSpacing="5px" ImageFolder="~/App_Themes/Violet/{0}/" CssFilePath="~/App_Themes/Violet/{0}/styles.css" CssPostfix="Violet">
+<ItemImage Height="5px" Width="5px" Url="~/App_Themes/Violet/Web/tiVioletBullet.gif"></ItemImage>
+<ColumnStyle>
+<Paddings PaddingRight="15px"></Paddings>
+</ColumnStyle>
+<ItemStyle ImageSpacing="11px">
+<CurrentItemStyle Font-Underline="False" Font-Bold="True"></CurrentItemStyle>
+</ItemStyle>
+<FilterBox InfoText=""></FilterBox>
+<GroupContentStyle ItemSpacing="3px" Font-Underline="False" Font-Bold="False">
+<Paddings PaddingTop="12px"></Paddings>
+</GroupContentStyle>
+<IndexPanelSeparatorStyle Height="0px" BackColor="Transparent"></IndexPanelSeparatorStyle>
+<IndexPanel Separator=""></IndexPanel>
+<IndexPanelItemStyle Font-Size="13px"></IndexPanelItemStyle>
+</dxti:ASPxTitleIndex>

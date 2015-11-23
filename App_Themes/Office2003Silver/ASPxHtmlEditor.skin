@@ -1,0 +1,39 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.ASPxHtmlEditor.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web.ASPxHtmlEditor" TagPrefix="dxhe" %>
+
+<dxhe:ASPxHtmlEditor runat="server" >
+	<Styles CssPostfix="Office2003Silver" CssFilePath="{0}/styles.css">
+		<ViewArea>
+			<Border BorderStyle="Solid" BorderColor="#7C7C94" BorderWidth="1px" />
+		</ViewArea>
+	</Styles>
+	<StylesStatusBar>
+		<ActiveTab BackColor="White" />
+	</StylesStatusBar>
+	<Images SpriteCssFilePath="{0}/sprite.css">
+	    <LoadingPanel Url="HtmlEditor/Loading.gif"></LoadingPanel>
+	</Images>
+	<PartsRoundPanel>
+	    <%-- Middles --%>
+	    <TopEdge>
+	        <BackgroundImage Repeat="RepeatX" VerticalPosition="top" HorizontalPosition="left" ImageUrl="HtmlEditor/RoundPanel/herpTopEdge.png" />
+	    </TopEdge>
+	    <NoHeaderTopEdge BackColor="#E3E3EC" />
+	    <%-- Header --%>
+	    <HeaderLeftEdge>
+	        <BackgroundImage Repeat="RepeatX" VerticalPosition="top" HorizontalPosition="left" ImageUrl="HtmlEditor/RoundPanel/herpHeader.png" />
+	    </HeaderLeftEdge>
+	    <HeaderContent>
+	        <BackgroundImage Repeat="RepeatX" VerticalPosition="top" HorizontalPosition="left" ImageUrl="HtmlEditor/RoundPanel/herpHeader.png" />
+	    </HeaderContent>
+	    <HeaderRightEdge>
+	        <BackgroundImage Repeat="RepeatX" VerticalPosition="top" HorizontalPosition="left" ImageUrl="HtmlEditor/RoundPanel/herpHeader.png" />
+	    </HeaderRightEdge>
+	</PartsRoundPanel>
+	<StylesRoundPanel>            
+		<ControlStyle BackColor="#E3E3EC">
+			<Border BorderWidth="1px" BorderStyle="Solid" BorderColor="#7C7C94" />
+		</ControlStyle>
+	</StylesRoundPanel>	
+</dxhe:ASPxHtmlEditor>
+

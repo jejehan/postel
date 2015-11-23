@@ -1,0 +1,11 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px" CssPostfix="GreenLeafInversed" View="GroupBox" BackColor="#ECFEDA" CssFilePath="~/App_Themes/GreenLeaf_Inversed/{0}/styles.css">
+<Border BorderWidth="2px" BorderStyle="Solid" BorderColor="#94C43A"></Border>
+<ContentPaddings Padding="0px"></ContentPaddings>
+<TopRightCorner Height="16px" Width="16px" Url="~/App_Themes/GreenLeaf_Inversed/Web/rpTopRightCorner.png"></TopRightCorner>
+<HeaderStyle>
+<Border BorderWidth="1px" BorderStyle="Solid" BorderColor="#94C43A"></Border>
+</HeaderStyle>
+<BottomLeftCorner Height="16px" Width="16px" Url="~/App_Themes/GreenLeaf_Inversed/Web/rpBottomLeftCorner.png"></BottomLeftCorner>
+</dxrp:ASPxRoundPanel>

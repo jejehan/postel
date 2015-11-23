@@ -1,0 +1,33 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px" CssPostfix="MacOS" CssFilePath="~/App_Themes/MacOS/{0}/styles.css">
+<Border BorderStyle="None"></Border>
+<ContentPaddings Padding="2px" PaddingBottom="8px"></ContentPaddings>
+<LeftEdge>
+<BackgroundImage ImageUrl="~/App_Themes/MacOS/Web/rpLeftEdge.png"></BackgroundImage>
+</LeftEdge>
+<BottomRightCorner Height="23px" Width="23px" Url="~/App_Themes/MacOS/Web/rpBottomRightCorner.png"></BottomRightCorner>
+<BottomEdge>
+<BackgroundImage ImageUrl="~/App_Themes/MacOS/Web/rpBottomEdge.png"></BackgroundImage>
+</BottomEdge>
+<Content>
+<BackgroundImage ImageUrl="~/App_Themes/MacOS/Web/rpContent.png"></BackgroundImage>
+</Content>
+<HeaderContent>
+<BackgroundImage Repeat="RepeatX" VerticalPosition="top" ImageUrl="~/App_Themes/MacOS/Web/rpHeaderContent.png"></BackgroundImage>
+</HeaderContent>
+<HeaderRightEdge>
+<BackgroundImage Repeat="NoRepeat" VerticalPosition="top" ImageUrl="~/App_Themes/MacOS/Web/rpHeaderRightEdge.png"></BackgroundImage>
+</HeaderRightEdge>
+<RightEdge>
+<BackgroundImage ImageUrl="~/App_Themes/MacOS/Web/rpRightEdge.png"></BackgroundImage>
+</RightEdge>
+<HeaderStyle Height="27px" HorizontalAlign="Center">
+<Paddings PaddingTop="4px"></Paddings>
+<Border BorderStyle="None"></Border>
+</HeaderStyle>
+<HeaderLeftEdge>
+<BackgroundImage Repeat="NoRepeat" VerticalPosition="top" ImageUrl="~/App_Themes/MacOS/Web/rpHeaderLeftEdge.png"></BackgroundImage>
+</HeaderLeftEdge>
+<BottomLeftCorner Height="23px" Width="23px" Url="~/App_Themes/MacOS/Web/rpBottomLeftCorner.png"></BottomLeftCorner>
+</dxrp:ASPxRoundPanel>

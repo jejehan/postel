@@ -1,0 +1,4 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxcc" Namespace="DevExpress.Web.ASPxCloudControl" Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxcc:ASPxCloudControl runat="server" CssFilePath="~/App_Themes/Strict/{0}/styles.css" CssPostfix="Strict" MaxColor="#4887C7" MinColor="#336699">
+</dxcc:ASPxCloudControl>

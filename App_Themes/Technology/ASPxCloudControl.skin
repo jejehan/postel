@@ -1,0 +1,22 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" Namespace="DevExpress.Web"
+    TagPrefix="dxcc"
+     
+%>
+<dxcc:ASPxCloudControl
+    runat="server"    
+    CssPostfix="Technology" 
+    ImageFolder="~/App_Themes/Technology/{0}/"     
+    CssFilePath="~/App_Themes/Technology/{0}/styles.css"          
+    MaxColor="#FECC32" MinColor="#FECC32"
+    >
+    
+<RankProperties>
+    <dxcc:RankProperties></dxcc:RankProperties>
+    <dxcc:RankProperties></dxcc:RankProperties>
+    <dxcc:RankProperties></dxcc:RankProperties>
+    <dxcc:RankProperties></dxcc:RankProperties>
+    <dxcc:RankProperties></dxcc:RankProperties>
+    <dxcc:RankProperties></dxcc:RankProperties>
+</RankProperties>
+</dxcc:ASPxCloudControl>

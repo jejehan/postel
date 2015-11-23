@@ -1,0 +1,7 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxlp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+
+<dxlp:ASPxLoadingPanel runat="server" CssFilePath="{0}/styles.css" CssPostfix="Office2003Olive">
+    <Image Url="Web/Loading.gif"></Image>
+</dxlp:ASPxLoadingPanel>
+

@@ -1,0 +1,30 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web.ASPxRoundPanel" Assembly="DevExpress.Web.v9.3, Version=9.3.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" CssFilePath="~/App_Themes/Blue/{0}/styles.css" CssPostfix="Blue" ImageFolder="~/App_Themes/Blue/{0}/" BackColor="White">
+    <Border BorderWidth="1px" BorderStyle="Solid" BorderColor="#68AFFD" />
+    <ContentPaddings PaddingTop="6px" PaddingBottom="6px" PaddingLeft="9px" PaddingRight="9px" />
+    <HeaderStyle BackColor="#68affd">    
+        <BackgroundImage Repeat="RepeatX"  ImageUrl="~/App_Themes/Blue/Web/rpHeaderBack.png" />
+        <Border BorderStyle="None" />
+        <BorderTop BorderWidth="1px" BorderStyle="Solid" BorderColor="#B5D8FF" />
+    </HeaderStyle>
+    <%-- Corner parts --%>
+    <TopLeftCorner Height="6px" Width="6px" Url="~/App_Themes/Blue/Web/rpTopLeftCorner.png" />
+    <NoHeaderTopLeftCorner Height="6px" Width="6px" Url="~/App_Themes/Blue/Web/rpNoHeaderTopLeftCorner.png" />
+    <TopRightCorner Height="6px" Width="6px" Url="~/App_Themes/Blue/Web/rpTopRightCorner.png" />
+    <NoHeaderTopRightCorner Height="6px" Width="6px" Url="~/App_Themes/Blue/Web/rpNoHeaderTopRightCorner.png" />
+    <BottomLeftCorner Height="6px" Width="6px" Url="~/App_Themes/Blue/Web/rpBottomLeftCorner.png" />
+    <BottomRightCorner Height="6px" Width="6px" Url="~/App_Themes/Blue/Web/rpBottomRightCorner.png" />
+    <%-- Header parts --%>
+    <HeaderLeftEdge>
+        <BackgroundImage Repeat="RepeatX"  ImageUrl="~/App_Themes/Blue/Web/rpHeaderBack.png" />
+    </HeaderLeftEdge>
+    <HeaderRightEdge>
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Blue/Web/rpHeaderBack.png" />
+    </HeaderRightEdge>
+    <%-- Middle parts --%>
+    <TopEdge>
+        <BackgroundImage ImageUrl="~/App_Themes/Blue/Web/rpHeaderEdge.png" />
+    </TopEdge>
+    <NoHeaderTopEdge BackColor="White" />
+</dxrp:ASPxRoundPanel>

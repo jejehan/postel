@@ -1,0 +1,16 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px" CssPostfix="HatchedGray" ShowDefaultImages="False" BackColor="White" CssFilePath="~/App_Themes/HatchedGray/Web/styles.css" >
+<Border BorderStyle="None"></Border>
+<ContentPaddings PaddingBottom="33px"></ContentPaddings>
+<Content>
+<BackgroundImage Repeat="RepeatX" VerticalPosition="bottom" ImageUrl="~/App_Themes/HatchedGray/Web/rpContent.png"></BackgroundImage>
+</Content>
+<HeaderContent>
+<BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/HatchedGray/Web/rpHeaderContent.png"></BackgroundImage>
+</HeaderContent>
+<HeaderStyle Height="29px">
+<BorderBottom BorderWidth="1px" BorderStyle="Dashed" BorderColor="#E5E5E5"></BorderBottom>
+<Border BorderStyle="None"></Border>
+</HeaderStyle>
+</dxrp:ASPxRoundPanel>

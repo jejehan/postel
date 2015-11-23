@@ -1,0 +1,21 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px"
+	ShowDefaultImages="False" ShowHeader="False"
+    CssPostfix="Silver" CssFilePath="~/App_Themes/Silver/{0}/styles.css"
+	ImageFolder="~/App_Themes/Silver/{0}/">
+	
+	<Border BorderWidth="1px" BorderStyle="Solid" BorderColor="#D7D7D7" />
+	<BorderBottom BorderWidth="0px" />
+	
+	<BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Silver/Web/rpContentBack.gif" />
+	
+	<BottomEdge>
+		<BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/Silver/Web/rpBottomBack.gif" />
+	</BottomEdge>
+	
+	<BottomLeftCorner Height="10px" Width="6px" Url="~/App_Themes/Silver/Web/rpBottomLeftCorner.gif" />
+	<BottomRightCorner Height="10px" Width="6px" Url="~/App_Themes/Silver/Web/rpBottomRightCorner.gif" />
+	<TopLeftCorner Height="6px" Width="6px" Url="~/App_Themes/Silver/Web/rpTopLeftCorner.gif" />
+	<TopRightCorner Height="6px" Width="6px" Url="~/App_Themes/Silver/Web/rpTopRightCorner.gif" />
+</dxrp:ASPxRoundPanel>

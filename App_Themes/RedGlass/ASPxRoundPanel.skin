@@ -1,0 +1,27 @@
+<%@ Register TagPrefix="dx" Namespace="DevExpress.Data" Assembly="DevExpress.Data.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<%@ Register TagPrefix="dxrp" Namespace="DevExpress.Web" Assembly="DevExpress.Web.v15.1, Version=15.1.8.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" %>
+<dxrp:ASPxRoundPanel runat="server" Width="200px" CssPostfix="RedGlass" CssFilePath="~/App_Themes/RedGlass/{0}/styles.css" >
+    <Border BorderColor="#959595"></Border>
+    <ContentPaddings Padding="9px"></ContentPaddings>
+    <HeaderStyle>
+        <Paddings PaddingTop="5px" PaddingBottom="5px" PaddingLeft="7px"></Paddings>
+    </HeaderStyle>
+    <%-- Corner parts --%>
+    <TopLeftCorner Height="2px" Width="2px" Url="~/App_Themes/RedGlass/Web/rpTopLeftCorner.png" />
+    <TopRightCorner Height="2px" Width="2px" Url="~/App_Themes/RedGlass/Web/rpTopRightCorner.png" />
+    <BottomLeftCorner Height="2px" Width="2px" Url="~/App_Themes/RedGlass/Web/rpBottomLeftCorner.png" />
+    <BottomRightCorner Height="2px" Width="2px" Url="~/App_Themes/RedGlass/Web/rpBottomRightCorner.png" />
+    <%-- Header parts --%>
+    <HeaderLeftEdge BackColor="#D01F3C">
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/RedGlass/Web/rpHeader.png" />
+    </HeaderLeftEdge>
+    <HeaderContent BackColor="#D01F3C">
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/RedGlass/Web/rpHeader.png" />
+    </HeaderContent>
+    <HeaderRightEdge BackColor="#D01F3C">
+        <BackgroundImage Repeat="RepeatX" ImageUrl="~/App_Themes/RedGlass/Web/rpHeader.png" />
+    </HeaderRightEdge>
+    <%-- Midddle parts --%>
+    <TopEdge BackColor="#EA9CA8" />
+    <NoHeaderTopEdge BackColor="#F7F7F7" />
+</dxrp:ASPxRoundPanel>
